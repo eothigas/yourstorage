@@ -1,42 +1,56 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Inter, Arial, Helvetica, sans-serif
+    font-family: 'Stoke', Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color: rgb(4, 9, 21, 0.900);
 }
 
 .nav {
-    background-color: black;
+    background-color: rgb(23, 32, 55);
     color:white;
     display: flex;
+    border: 2px black solid;
+}
+
+#logo {
+    padding-right: 720px;
 }
 
 a {
     color: white;
     text-decoration: none;
-    padding: 30px;
+    padding: 20px;
     list-style-type: none;
     align-items: center;
     display: grid;
 }
 
-ul.main {
-    margin-left: 500px;
-    padding: 1px;
+.main {
     list-style-type: none;
     display: flex;
     align-items: center;
     font-size: 30px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+li {
+    align-items: center;
 }
 
 button {
-    width: 262px;
+    width: 250 px;
+    height: 80 px;
     display: flex;
     align-items: center;
     border-radius: 30px;
     font-size: 25px;
     font-family: Inter, Arial, Helvetica, sans-serif;
+    cursor: pointer;
 }
 
 img {
-    padding: 5px;
+    padding: 10px;
 }
