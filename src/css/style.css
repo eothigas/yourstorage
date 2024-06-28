@@ -10,6 +10,7 @@ body {
 }
 
 .nav {
+    max-width: 100%;
     background-color: rgb(23, 32, 55);
     color:white;
     display: flex;
@@ -18,7 +19,7 @@ body {
 }
 
 .Logo {
-    width: 100px;
+    max-width: 100%;
     margin: 5px;
 }
 
@@ -32,14 +33,14 @@ a {
 }
 
 .main {
-    margin: 5px;
+    margin-top: 15px; margin-bottom: 8px;
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-items: center;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Stoke', Arial, Helvetica, sans-serif;
-    gap: 10px;
+    gap: 20px;
 }
 
 li {
@@ -47,21 +48,39 @@ li {
     padding-right: 10px;
 }
 
-a.login {
-    align-items: center;
-    cursor: pointer;
-    padding: 0px;
-}
-
 .login {
-    width: 250px;
-    height: 70px;
+    width: 240px;
+    height: 60px;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Stoke', Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
+
+img.storage1 {
+    width: 1396px;
+    position: relative;
+    z-index: -1;
+}
+
+.back {
+    position: absolute;
+}
+
+.container1 {
+    max-width: 70%;
+    position: absolute;
+    box-sizing: 50px;
+}
+
+.legenda1 {
+    position: absolute;
+    left: 3%;
+    bottom: 50%;
+}
+
+
