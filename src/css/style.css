@@ -5,6 +5,7 @@
 }
 
 body {
+    max-width: 1920px;
     background-color: rgb(4, 9, 21, 0.900);
     color: white;
 }
@@ -61,18 +62,18 @@ li {
     cursor: pointer;
 }
 
-img.storage1 {
-    width: 1396px;
-    position: relative;
+.storage1 {
+    width: 100%;
+    position: absolute;
     z-index: -1;
 }
 
 .back {
-    position: absolute;
+    position: relative;
 }
 
 .container1 {
-    max-width: 70%;
+    max-width: 100%;
     position: absolute;
     box-sizing: 50px;
 }
