@@ -58,17 +58,17 @@ body {
     border-bottom-right-radius: 40px; border-top-right-radius: 40px;
 }
 
-.box2 ul {
+form {
     display: grid;
-    gap: 5px;
     align-items: left;
     justify-content: left;
 }
 
-.forms {
-    padding: 40px 30px 20px 40px;
+#size {
+    font-size: 10px;
+    text-align: right;
 }
 
 #message input {
-    block-size: 200px;
+    
 }
