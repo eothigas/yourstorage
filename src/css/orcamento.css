@@ -53,10 +53,22 @@ body {
 
 .box2 {
     border-color: #14161b;
-    display: flex;
     width: 1000px;
     background-color: #14161b;
     border-bottom-right-radius: 40px; border-top-right-radius: 40px;
 }
 
+.box2 ul {
+    display: grid;
+    gap: 5px;
+    align-items: left;
+    justify-content: left;
+}
 
+.forms {
+    padding: 40px 30px 20px 40px;
+}
+
+#message input {
+    block-size: 200px;
+}
